@@ -2,6 +2,7 @@
 #include<vector>
 #define S 1000
 using namespace std;
+#DFS algorithm
 void DFS(vector<int> Alist[],int sel[], int index) {
 	sel[index] = 1;
 	for (int i = 0; i < Alist[index].size(); i++) {
